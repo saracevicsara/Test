@@ -53,26 +53,48 @@ main {
   background-image: url("./login-background.jpg");
 }
 main h1 {
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   text-align: center;
 }
 .form {
   width: 40%;
-  height: 50vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
 }
 input {
   width: 70%;
-  height: 4vh;
+  height: 5vh;
   border: none;
   border-radius: 5px;
   margin-top: 20px;
 }
+.position-input {
+  width: 75%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 label {
   font-size: 20px;
   color: white;
+}
+main button {
+  width: 52%;
+  height: 5vh;
+  background-color: rgb(77, 163, 77);
+  border: none;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 145px;
+  border-radius: 5px;
+}
+#facebook {
+  background-color: blue;
 }
 footer {
   background-color: orange;
