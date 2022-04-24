@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 8vh;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logo {
+  width: 200px;
+  height: 50px;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+li p {
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+}
+.first-list,
+.second-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-list button {
+  width: 170px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(41, 117, 41);
+  color: white;
+  border-radius: 10px;
+}
+.second-list button:hover {
+  background-color: rgb(21, 129, 21);
+}
+main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./login-background.jpg");
+}
+main h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.form {
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 70%;
+  height: 4vh;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+label {
+  font-size: 20px;
+  color: white;
+}
+footer {
+  background-color: orange;
+  width: 100%;
+  height: 10vh;
+}
